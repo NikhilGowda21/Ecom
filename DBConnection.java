@@ -11,6 +11,7 @@ public class DBConnection {
 	private static String url = "jdbc:mysql://localhost:3307/ecom1";
 	private static Connection con = null;
 
+
 	public static Connection getConnection() {
 		if (con == null) {
 			try {
